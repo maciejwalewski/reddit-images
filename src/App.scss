@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
+
+$lightest: #ddddd9;
+$lighter: #a3a39f;
+$default: #707069; // Main Primary color */
+$darker: #42423A;
+$darkest: #303029;
+
+@import './stylesheets/Reset.scss';
+@import './stylesheets/SubredditChoice.scss';
+@import './stylesheets/ImagesList.scss';
+@import './stylesheets/EachImage.scss';
+@import './stylesheets/Loader.scss';
+@import './stylesheets/RWD.scss';
