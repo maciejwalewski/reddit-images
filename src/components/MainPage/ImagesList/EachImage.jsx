@@ -24,7 +24,7 @@ class EachImage extends Component {
 
     return (
       <div className="eachImage">
-        <a target="blank" href={`https://www.reddit.com${item.data.permalink}`}>
+        <a target="_blank" rel="noopener noreferrer" href={`https://www.reddit.com${item.data.permalink}`}>
           <img className="eachImage__image" alt="" src={item.data.url} />
         </a>
         <p className="eachImage__title">{item.data.title}</p>
